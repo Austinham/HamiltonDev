@@ -110,8 +110,8 @@ function createDots() {
     const y = Math.random() * canvas.height;
     const speedX = (Math.random() - 0.5) * 4;
     const speedY = (Math.random() - 0.5) * 4;
-    const radius = Math.random() * 1 + 0.1;
-    const color = 'white';
+    const radius = Math.random() * 10 + 0.1;
+    const color = 'blue';
     dots.push(new Dot(x, y, speedX, speedY, radius, color));
   }
 }

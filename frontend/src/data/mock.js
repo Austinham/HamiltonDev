@@ -73,8 +73,8 @@ export const portfolioData = {
       id: 2,
       title: "Cafe Pronto",
       category: "Web Application",
-      shortDescription: "A modern coffee shop website with online ordering and menu management system.",
-      mainPurpose: "Create an engaging online presence for a coffee shop with seamless ordering experience and beautiful design.",
+      shortDescription: "A modern, responsive cafe shop website built with React and FastAPI, featuring a complete cafe management system.",
+      mainPurpose: "Create an engaging online presence for a coffee shop with seamless ordering experience, beautiful design, and robust backend API.",
       currentStructure: [
         "Responsive landing page with hero section",
         "Menu display with categories and pricing",
@@ -109,14 +109,15 @@ export const portfolioData = {
         "SEO optimized structure"
       ],
       techStack: {
-        frontend: "HTML5, CSS3, JavaScript",
-        styling: "Modern CSS with Flexbox/Grid",
+        frontend: "React 18, Tailwind CSS, Shadcn/ui",
+        backend: "FastAPI, MongoDB, Python",
+        styling: "Modern CSS with Tailwind utilities",
         deployment: "GitHub Pages, Netlify",
-        tools: "Git, VS Code, Responsive design"
+        tools: "Git, VS Code, CRACO"
       },
       image: "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800&h=600&fit=crop",
-      demoUrl: "https://cafe-pronto-demo.netlify.app",
-      githubUrl: "https://github.com/Austinham/cafe-pronto-demo",
+      demoUrl: "https://austinham.github.io/-cafe-pronto-demo",
+      githubUrl: "https://github.com/Austinham/-cafe-pronto-demo",
       status: "Live"
     },
     

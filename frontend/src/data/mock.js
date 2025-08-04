@@ -71,53 +71,53 @@ export const portfolioData = {
     
     {
       id: 2,
-      title: "ShopSmart Mobile",
-      category: "Mobile Application",
-      shortDescription: "AI-powered mobile shopping assistant with personalized recommendations.",
-      mainPurpose: "Revolutionize mobile shopping experience with AI-driven product discovery and smart recommendations.",
+      title: "Cafe Pronto",
+      category: "Web Application",
+      shortDescription: "A modern coffee shop website with online ordering and menu management system.",
+      mainPurpose: "Create an engaging online presence for a coffee shop with seamless ordering experience and beautiful design.",
       currentStructure: [
-        "Onboarding and user preferences setup",
-        "AI-powered product discovery feed",
-        "Advanced search with visual filters",
-        "Personalized recommendation engine",
-        "Shopping cart and checkout flow",
-        "Order tracking and user profile"
+        "Responsive landing page with hero section",
+        "Menu display with categories and pricing",
+        "Online ordering system",
+        "About section with coffee shop story",
+        "Contact information and location",
+        "Mobile-friendly navigation"
       ],
       designSystem: {
-        fonts: "SF Pro Display, SF Pro Text",
-        colors: "Primary: #FF6B6B, Secondary: #4ECDC4, Accent: #45B7D1",
-        uiPatterns: "Bottom navigation, card carousels, progressive disclosure"
+        fonts: "Modern sans-serif fonts for readability",
+        colors: "Warm coffee tones, cream backgrounds, dark accents",
+        uiPatterns: "Card-based layouts, smooth animations, intuitive navigation"
       },
       userFlow: [
-        "App launch → Personalization setup",
-        "Browse → AI recommendations",
-        "Product discovery → Add to cart",
-        "Checkout → Order confirmation and tracking"
+        "Landing page → Browse menu",
+        "Select items → Add to cart",
+        "Review order → Checkout process",
+        "Order confirmation → Contact information"
       ],
       targetUsers: [
-        "Mobile-first shoppers aged 18-45",
-        "Fashion and lifestyle enthusiasts",
-        "Busy professionals seeking convenience",
-        "Tech-savvy consumers"
+        "Coffee shop customers",
+        "Local residents seeking quality coffee",
+        "Online food ordering enthusiasts",
+        "Mobile users on-the-go"
       ],
       keyFeatures: [
-        "AI-powered product recommendations",
-        "Visual search using camera",
-        "Price comparison across retailers",
-        "Social shopping and reviews",
-        "Wishlist and favorites management",
-        "Push notifications for deals"
+        "Responsive design for all devices",
+        "Interactive menu with categories",
+        "Smooth scrolling navigation",
+        "Modern UI/UX design",
+        "Fast loading performance",
+        "SEO optimized structure"
       ],
       techStack: {
-        frontend: "React Native, TypeScript, React Navigation",
-        backend: "Python, FastAPI, PostgreSQL, Redis",
-        ai: "TensorFlow, OpenAI GPT-4, Computer Vision APIs",
-        deployment: "Google Cloud Platform, Firebase"
+        frontend: "HTML5, CSS3, JavaScript",
+        styling: "Modern CSS with Flexbox/Grid",
+        deployment: "GitHub Pages, Netlify",
+        tools: "Git, VS Code, Responsive design"
       },
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
-      demoUrl: "https://apps.apple.com/app/shopsmart-demo",
-      githubUrl: "https://github.com/hamiltondev/shopsmart-mobile",
-      status: "Beta"
+      image: "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800&h=600&fit=crop",
+      demoUrl: "https://cafe-pronto-demo.netlify.app",
+      githubUrl: "https://github.com/Austinham/cafe-pronto-demo",
+      status: "Live"
     },
     
     {

@@ -12,7 +12,7 @@ export const portfolioData = {
     contact: {
       email: "hamilton@hamiltondev.com",
       github: "https://github.com/hamiltondev",
-      linkedin: "https://linkedin.com/in/hamiltondev",
+      linkedin: "https://www.linkedin.com/in/austin-hamilton-592928173/",
       location: "San Francisco, CA"
     }
   },

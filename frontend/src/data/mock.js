@@ -10,7 +10,7 @@ export const portfolioData = {
       "AWS", "Docker", "Kubernetes", "GraphQL", "REST APIs", "Machine Learning"
     ],
     contact: {
-      email: "hamilton@hamiltondev.com",
+      email: "austinhamilton17@hotmail.com",
       github: "https://github.com/hamiltondev",
       linkedin: "https://www.linkedin.com/in/austin-hamilton-592928173/",
       location: "San Francisco, CA"

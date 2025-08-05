@@ -7,30 +7,28 @@ const About = () => {
 
   const experience = [
     {
-      title: "Senior Full-Stack Developer",
+      title: " junior Full-Stack Developer",
       company: "TechInnovate Solutions",
-      period: "2022 - Present",
-      description: "Led development of scalable web applications using React, Node.js, and cloud technologies. Managed a team of 5 developers and delivered 15+ successful projects."
+      period: "2025 - Present",
+      description: "Led development of scalable web applications using React, Node.js,"
     },
     {
       title: "Full-Stack Developer",
       company: "StartupFlow",
-      period: "2020 - 2022",
+      period: "2022 - 2025",
       description: "Built end-to-end solutions for early-stage startups. Specialized in rapid prototyping and MVP development using modern JavaScript frameworks."
     },
     {
       title: "Frontend Developer",
       company: "DigitalCraft Agency",
-      period: "2019 - 2020",
+      period: "2022 - 2025",
       description: "Created responsive and interactive user interfaces for client projects. Worked with React, Vue.js, and modern CSS frameworks."
     }
   ];
 
   const achievements = [
-    "Led development of award-winning SaaS platform serving 10,000+ users",
-    "Open source contributor with 50+ GitHub repositories",
-    "Mentored 20+ junior developers through coding bootcamps",
-    "Speaker at 5+ tech conferences and meetups"
+    "Successfully implemented critical features for a software project at Virrata AB, enhancing functionality and user experience for stakeholders.",
+    
   ];
 
   return (
@@ -78,12 +76,12 @@ const About = () => {
                 {/* Quick Stats */}
                 <div className="grid grid-cols-2 gap-4 pt-6 border-t border-gray-700">
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-orange-400">5+</div>
+                    <div className="text-2xl font-bold text-orange-400">3+</div>
                     <div className="text-gray-400 text-sm">Years Experience</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-orange-400">50+</div>
-                    <div className="text-gray-400 text-sm">Projects Completed</div>
+                    <div className="text-2xl font-bold text-orange-400">european championship</div>
+                    <div className="text-gray-400 text-sm">bronze medalist</div>
                   </div>
                 </div>
 
@@ -140,8 +138,7 @@ const About = () => {
                 </p>
                 <p>
                   When I'm not coding, you'll find me exploring new technologies, contributing to 
-                  open source projects, or mentoring aspiring developers. I believe in the power 
-                  of technology to solve real-world problems and create meaningful impact.
+                  open source projects, or mentoring aspiring developers.
                 </p>
               </div>
             </div>

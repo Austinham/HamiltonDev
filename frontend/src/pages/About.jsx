@@ -87,7 +87,7 @@ const About = () => {
 
                 {/* Download Resume */}
                 <button 
-                  onClick={() => window.open('/Austin_Hamilton_Resume.html', '_blank')}
+                  onClick={() => window.open('/Austin_Hamilton_Resume.pdf', '_blank')}
                   className="w-full inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-orange-500 to-amber-600 text-white font-semibold rounded-xl hover:from-orange-600 hover:to-amber-700 transition-all duration-200 transform hover:scale-105"
                 >
                   <Download className="w-4 h-4 mr-2" />

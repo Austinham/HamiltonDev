@@ -80,8 +80,8 @@ const About = () => {
                     <div className="text-gray-400 text-sm">Years Experience</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-orange-400">european championship</div>
-                    <div className="text-gray-400 text-sm">bronze medalist</div>
+                    <div className="text-2xl font-bold text-orange-400">Former European Championship</div>
+                    <div className="text-gray-400 text-sm">Bronze medalist</div>
                   </div>
                 </div>
 

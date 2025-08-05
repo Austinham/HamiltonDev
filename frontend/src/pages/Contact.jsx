@@ -21,8 +21,20 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Simulate form submission
-    console.log("Form submitted:", formData);
+    
+    // Create email content
+    const emailSubject = encodeURIComponent(formData.subject);
+    const emailBody = encodeURIComponent(
+      `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
+    );
+    
+    // Create mailto link
+    const mailtoLink = `mailto:${contact.email}?subject=${emailSubject}&body=${emailBody}`;
+    
+    // Open email client
+    window.open(mailtoLink, '_blank');
+    
+    // Show success message
     setIsSubmitted(true);
     
     // Reset form after 3 seconds
@@ -181,10 +193,10 @@ const Contact = () => {
                     <CheckCircle className="w-8 h-8 text-green-400" />
                   </div>
                   <h3 className="text-xl font-semibold text-white">
-                    Message Sent Successfully!
+                    Email Client Opened!
                   </h3>
                   <p className="text-gray-400">
-                    Thank you for reaching out. I'll get back to you within 24 hours.
+                    Your email client should have opened with a pre-filled message. Please send the email to complete your message.
                   </p>
                 </div>
               ) : (

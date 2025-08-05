@@ -1,13 +1,13 @@
-// Mock data for hamiltonDev portfolio
+// Mock data for Austin Hamilton portfolio
 
 export const portfolioData = {
   personal: {
-    name: "hamiltonDev",
+    name: "Austin Hamilton",
     title: "Full-Stack Developer",
-    bio: "Passionate full-stack developer with 5+ years of experience building scalable web applications, mobile apps, and AI-powered solutions. I specialize in React, Node.js, and modern development practices.",
+    bio: "Passionate full-stack developer with 3+ years of experience building scalable web applications, mobile apps, and AI-powered solutions. I specialize in React, Node.js, and modern development practices.",
     skills: [
-      "React", "TypeScript", "Node.js", "Python", "MongoDB", "PostgreSQL", 
-      "AWS", "Docker", "Kubernetes", "GraphQL", "REST APIs", "Machine Learning"
+      "React", "TypeScript", "Node.js", "Python", "MongoDB", ".NET", 
+      "C / C++", "Docker", "Tailwind", "Version control", "REST APIs", "Testing"
     ],
     contact: {
       email: "austinhamilton17@hotmail.com",
@@ -64,8 +64,8 @@ export const portfolioData = {
         tools: "Git, Jest, Cypress, Figma"
       },
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
-      demoUrl: "https://taskflow-demo.hamiltondev.com",
-      githubUrl: "https://github.com/hamiltondev/taskflow-pro",
+      demoUrl: "https://taskflow-demo.netlify.app",
+      githubUrl: "https://github.com/Austinham/taskflow-pro",
       status: "Live"
     },
     
@@ -167,8 +167,8 @@ export const portfolioData = {
         deployment: "Vercel, Supabase, Cloudflare"
       },
       image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop",
-      demoUrl: "https://contentforge-demo.hamiltondev.com",
-      githubUrl: "https://github.com/hamiltondev/contentforge-ai",
+      demoUrl: "https://contentforge-demo.netlify.app",
+      githubUrl: "https://github.com/Austinham/contentforge-ai",
       status: "Live"
     },
     
@@ -218,8 +218,8 @@ export const portfolioData = {
         deployment: "Kubernetes, AWS, Terraform"
       },
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
-      demoUrl: "https://dataviz-demo.hamiltondev.com",
-      githubUrl: "https://github.com/hamiltondev/dataviz-analytics",
+      demoUrl: "https://dataviz-demo.netlify.app",
+      githubUrl: "https://github.com/Austinham/dataviz-analytics",
       status: "Live"
     }
   ]

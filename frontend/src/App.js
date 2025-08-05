@@ -5,6 +5,7 @@ import "./App.css";
 // Components
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import ProjectDetail from "./pages/ProjectDetail";
@@ -16,6 +17,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <div className="min-h-screen bg-gray-900 text-white">
+          <ScrollToTop />
           <Navbar />
           <main className="relative">
             <Routes>

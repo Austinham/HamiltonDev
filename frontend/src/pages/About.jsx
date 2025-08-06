@@ -53,12 +53,20 @@ const About = () => {
               <div className="space-y-6">
                 {/* Avatar */}
                 <div className="relative inline-block">
-                  <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-orange-500 mx-auto">
+                  <div className="w-32 h-32 rounded-full overflow-hidden mx-auto border-4 border-orange-500/30">
                     <img 
-                      src="/profile-chart.png" 
-                      alt="Austin Hamilton - Data Analytics Chart" 
+                      src="/images/profile.jpg" 
+                      alt="Austin Hamilton"
                       className="w-full h-full object-cover"
+                      onError={(e) => {
+                        // Fallback to letter if image fails to load
+                        e.target.style.display = 'none';
+                        e.target.nextSibling.style.display = 'flex';
+                      }}
                     />
+                    <div className="w-full h-full bg-gradient-to-br from-orange-500 to-amber-600 rounded-full flex items-center justify-center text-4xl font-bold text-white" style={{display: 'none'}}>
+                      H
+                    </div>
                   </div>
                   <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-green-500 rounded-full border-4 border-gray-800"></div>
                 </div>

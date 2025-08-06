@@ -79,8 +79,8 @@ const Home = () => {
             {/* Skills Grid */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-2xl p-8 hover:border-orange-500/30 transition-all duration-300 group">
-                <div className="space-y-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-amber-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
+                <div className="space-y-4 text-center">
+                  <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-amber-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200 mx-auto">
                     <Code className="w-6 h-6 text-white" />
                   </div>
                   <h3 className="text-xl font-semibold text-white">
@@ -93,8 +93,8 @@ const Home = () => {
               </div>
 
               <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-2xl p-8 hover:border-orange-500/30 transition-all duration-300 group">
-                <div className="space-y-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-amber-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
+                <div className="space-y-4 text-center">
+                  <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-amber-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200 mx-auto">
                     <Palette className="w-6 h-6 text-white" />
                   </div>
                   <h3 className="text-xl font-semibold text-white">
@@ -107,8 +107,8 @@ const Home = () => {
               </div>
 
               <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-2xl p-8 hover:border-orange-500/30 transition-all duration-300 group">
-                <div className="space-y-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-amber-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
+                <div className="space-y-4 text-center">
+                  <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-amber-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200 mx-auto">
                     <Zap className="w-6 h-6 text-white" />
                   </div>
                   <h3 className="text-xl font-semibold text-white">

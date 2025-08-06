@@ -55,7 +55,7 @@ const About = () => {
                 <div className="relative inline-block">
                   <div className="w-32 h-32 rounded-full overflow-hidden mx-auto border-4 border-orange-500/30">
                     <img 
-                      src="/images/profile.jpg" 
+                      src="/images/IMG_3787.HEIC" 
                       alt="Austin Hamilton"
                       className="w-full h-full object-cover"
                       onError={(e) => {

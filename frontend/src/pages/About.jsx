@@ -48,9 +48,9 @@ const About = () => {
       period: "2022 - 2025",
       description: "Built end-to-end solutions for early-stage startups. Specialized in rapid prototyping and MVP development using modern JavaScript frameworks.",
       responsibilities: [
-        "Architected and developed MVP applications for 5+ startup clients",
-        "Implemented agile development practices and CI/CD pipelines",
-        "Mentored junior developers on best practices and code quality"
+        "Built end-to-end web applications for startup clients",
+        "Implemented agile development practices and modern workflows",
+        "Collaborated with team members on code quality and best practices"
       ]
     },
     {
@@ -60,7 +60,7 @@ const About = () => {
       description: "Created responsive and interactive user interfaces for client projects. Worked with React, Vue.js, and modern CSS frameworks.",
       responsibilities: [
         "Developed custom React components and reusable UI libraries",
-        "Optimized web performance achieving 90+ Lighthouse scores",
+        "Focused on web performance optimization and responsive design",
         "Collaborated with design teams to ensure consistent brand experiences"
       ]
     }
